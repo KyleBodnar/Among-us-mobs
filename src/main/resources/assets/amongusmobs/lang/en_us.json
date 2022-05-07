@@ -6,5 +6,6 @@
   "item.amongusmobs.amogium_sword": "Amogium Sword",
   "item.amongusmobs.amogium_raw": "Raw Amogium",
   "itemGroup.amongusmobs.amongusgroup": "Among Us Mobs",
-  "item.amongusmobs.amogium_block": "Amogium Block"
+  "block.amongusmobs.amogium_block": "Amogium Block",
+  "item.amongusmobs.amogium_ingot": "Amogium Ingot"
 }
