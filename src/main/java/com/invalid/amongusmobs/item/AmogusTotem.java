@@ -29,7 +29,7 @@ public class AmogusTotem extends Item{
 
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add( new TranslatableText("item.abject.amogus.tooltip").formatted(Formatting.RED) );
+        tooltip.add( new TranslatableText("item.amongusmobs.amogus_totem.tooltip").formatted(Formatting.RED) );
     }
 
     @Override
