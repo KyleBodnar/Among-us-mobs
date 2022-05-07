@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 
 public class BlockRegister {
     public static final Block AMOGIUM_ORE = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f));
-    public static final Block AMOGIUM_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).luminance(8).strength(4.0f));
+    public static final AmogiumBlock AMOGIUM_BLOCK = new AmogiumBlock(FabricBlockSettings.of(Material.STONE).luminance(8).strength(4.0f));
     public static final KeycardReader KEYCARD_READER = new KeycardReader(FabricBlockSettings.of(Material.METAL).strength(10.0f));
 
     public static void registerBlocks() {
