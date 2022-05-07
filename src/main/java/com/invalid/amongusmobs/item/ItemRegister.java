@@ -11,8 +11,8 @@ import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class ItemRegister {
-    public static final Item KEYCARD = new Keycard(new FabricItemSettings().group(Amogus.ITEM_GROUP));
-    public static final AmogusTotem AMOGUS_TOTEM = new AmogusTotem(new FabricItemSettings().group(Amogus.ITEM_GROUP).fireproof().rarity(Rarity.EPIC));
+    public static final Item KEYCARD = new Keycard(new FabricItemSettings().group(Amogus.ITEM_GROUP).maxCount(1));
+    public static final AmogusTotem AMOGUS_TOTEM = new AmogusTotem(new FabricItemSettings().group(Amogus.ITEM_GROUP).fireproof().rarity(Rarity.EPIC).maxCount(1));
     public static final Item AMOGIUM_RAW = new Item(new FabricItemSettings().group(Amogus.ITEM_GROUP));
     public static final Item AMOGIUM_INGOT = new Item(new FabricItemSettings().group(Amogus.ITEM_GROUP));
 

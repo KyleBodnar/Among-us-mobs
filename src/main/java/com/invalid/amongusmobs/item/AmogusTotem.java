@@ -44,5 +44,7 @@ public class AmogusTotem extends Item{
         return super.useOnEntity(stack, user, entity, hand);
     }
 
+    
+
 }
 
