@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "amongusmobs:amogium_block"
+        }
+    ],
+    "result": {
+        "item": "amongusmobs:amogium_ingot",
+        "count": 9
+    }
+}

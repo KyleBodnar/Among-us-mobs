@@ -18,7 +18,10 @@ public class ItemRegister {
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Amogus.MOD_ID, "keycard"), KEYCARD);
-        Registry.register(Registry.ITEM, new Identifier(Amogus.MOD_ID, "amogium_ore"), new BlockItem(BlockRegister.AMOGIUM_ORE, new FabricItemSettings().group(Amogus.ITEM_GROUP)));
+        Registry.register(Registry.ITEM, new Identifier(Amogus.MOD_ID, "amogium_ore"), new BlockItem(BlockRegister.AMOGIUM_ORE,
+                new FabricItemSettings().group(Amogus.ITEM_GROUP)));
+        Registry.register(Registry.ITEM, new Identifier(Amogus.MOD_ID, "amogium_block"), new BlockItem(BlockRegister.AMOGIUM_BLOCK,
+                new FabricItemSettings().group(Amogus.ITEM_GROUP)));
         Registry.register(Registry.ITEM, new Identifier(Amogus.MOD_ID, "amogus_totem"), AMOGUS_TOTEM);
         Registry.register(Registry.ITEM, new Identifier(Amogus.MOD_ID, "amogium_raw"), AMOGIUM_RAW);
         Registry.register(Registry.ITEM, new Identifier(Amogus.MOD_ID, "amogium_ingot"), AMOGIUM_INGOT);
