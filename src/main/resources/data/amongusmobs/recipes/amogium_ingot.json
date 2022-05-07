@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "amongusmobs:amogium_raw"
+  },
+  "result": "amongusmobs:amogium_ingot",
+  "experience": 2,
+  "cookingtime": 800
+}
