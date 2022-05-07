@@ -38,7 +38,7 @@ public class AmogusTotem extends Item{
             user.getWorld().playSound(user, user.getBlockPos(), SoundRegister.amogusSoundEvent, SoundCategory.BLOCKS, 2f, 1f);
             entity.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, blindDuration, 2));
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, invisDuration, 0));
-            user.getItemCooldownManager().set(this, 100);
+            user.getItemCooldownManager().set(this, 500);
         }
 
         return super.useOnEntity(stack, user, entity, hand);
