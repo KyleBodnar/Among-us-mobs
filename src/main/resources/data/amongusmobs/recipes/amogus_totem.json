@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "tet",
+    "ncn"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:tnt"
+    },
+    "t": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "e": {
+      "item": "minecraft:elytra"
+    },
+    "n": {
+      "item": "minecraft:nether_star"
+    },
+    "c": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "item": "amongusmobs:amogus_totem"
+  }
+}

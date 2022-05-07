@@ -1,3 +1,7 @@
 {
-"item.amongusmobs.keycard": "Keycard"
+  "item.amongusmobs.keycard": "Keycard",
+  "block.amongusmobs.amogium_ore": "Amogium Ore",
+  "item.amongusmobs.amogium_ore": "Amogium Ore",
+  "item.amongusmobs.amogus_totem": "Totem of Amogus",
+  "item.amongusmobs.amogium_sword": "Amogium Sword"
 }

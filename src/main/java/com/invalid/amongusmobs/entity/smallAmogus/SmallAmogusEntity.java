@@ -37,6 +37,7 @@ public class SmallAmogusEntity extends PassiveEntity implements IAnimatable {
         this.goalSelector.add(2, new WanderAroundPointOfInterestGoal(this, 0.75f, false));
         this.goalSelector.add(3, new WanderAroundFarGoal(this, 0.75f, 1));
         this.goalSelector.add(4, new LookAroundGoal(this));
+        this.goalSelector.add(5, new EscapeSunlightGoal(this, 0.75f));
     }
     private <E extends IAnimatable> PlayState predicate(AnimationEvent<E> event) {
         if (event.isMoving()) {
