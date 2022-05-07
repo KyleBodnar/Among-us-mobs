@@ -2,6 +2,7 @@ package com.invalid.amongusmobs.item;
 
 import com.invalid.amongusmobs.Amogus;
 import com.invalid.amongusmobs.block.BlockRegister;
+import com.invalid.amongusmobs.block.KeycardReader;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -24,6 +25,8 @@ public class ItemRegister {
         Registry.register(Registry.ITEM, new Identifier(Amogus.MOD_ID, "amogus_totem"), AMOGUS_TOTEM);
         Registry.register(Registry.ITEM, new Identifier(Amogus.MOD_ID, "amogium_raw"), AMOGIUM_RAW);
         Registry.register(Registry.ITEM, new Identifier(Amogus.MOD_ID, "amogium_ingot"), AMOGIUM_INGOT);
+        Registry.register(Registry.ITEM, new Identifier(Amogus.MOD_ID, "keycard_reader"), new BlockItem(BlockRegister.KEYCARD_READER,
+                new FabricItemSettings().group(Amogus.ITEM_GROUP)));
 
     }
 }

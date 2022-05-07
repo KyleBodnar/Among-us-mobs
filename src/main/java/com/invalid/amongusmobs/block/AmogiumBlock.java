@@ -1,5 +1,6 @@
 package com.invalid.amongusmobs.block;
 
+import com.invalid.amongusmobs.enchantments.EnchantRegister;
 import com.invalid.amongusmobs.item.ItemRegister;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -22,9 +23,11 @@ public class AmogiumBlock extends Block {
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         ItemStack stackInHand = player.getStackInHand(Hand.MAIN_HAND);
 
-        if (hand == Hand.MAIN_HAND && stackInHand.getEnchantments().isEmpty() && stackInHand.getItem().equals(ItemRegister.KEYCARD) && world.isClient) {
-            stackInHand.addEnchantment(Enchantment.byRawId(-1), 1);
-            player.sendMessage(new LiteralText("The keycard has been activated"), false);
+        if (hand == Hand.MAIN_HAND && stackInHand.getEnchantments().isEmpty() && stackInHand.getItem().equals(ItemRegister.KEYCARD)) {
+            stackInHand.addEnchantment(EnchantRegister.ACTIVATED, 1);
+            if(!world.isClient()) {
+                player.sendMessage(new LiteralText("The keycard has been activated"), false);
+            }
         }
 
         return super.onUse(state, world, pos, player, hand, hit);

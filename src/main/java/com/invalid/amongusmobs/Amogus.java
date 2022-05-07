@@ -2,6 +2,7 @@ package com.invalid.amongusmobs;
 
 
 import com.invalid.amongusmobs.block.BlockRegister;
+import com.invalid.amongusmobs.enchantments.EnchantRegister;
 import com.invalid.amongusmobs.item.ItemRegister;
 import com.invalid.amongusmobs.tools.ToolRegister;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -29,5 +30,6 @@ public class Amogus implements ModInitializer {
         ItemRegister.registerItems();
         BlockRegister.registerBlocks();
         ToolRegister.registerTools();
+        EnchantRegister.registerEnchants();
     }
 }

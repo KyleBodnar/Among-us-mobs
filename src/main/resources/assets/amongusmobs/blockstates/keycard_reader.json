@@ -1,9 +1,9 @@
 {
   "variants": {
-    "state=off": {
+    "active=false": {
       "model": "amongusmobs:block/keycard_reader_off"
     },
-    "state=on": {
+    "active=true": {
       "model": "amongusmobs:block/keycard_reader_on"
     }
   }

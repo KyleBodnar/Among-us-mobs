@@ -11,5 +11,10 @@
   "item.amongusmobs.amogium_ore": "Amogium Ore",
   "block.amongusmobs.amogium_ore": "Amogium Ore",
 
-  "itemGroup.amongusmobs.amongusgroup": "Among Us Mobs"
+  "item.amongusmobs.keycard_reader": "Keycard Reader",
+  "block.amongusmobs.keycard_reader": "Keycard Reader",
+
+  "itemGroup.amongusmobs.amongusgroup": "Among Us Mobs",
+
+  "enchantment.amongusmobs.enchantment_activated": "Activated"
 }
