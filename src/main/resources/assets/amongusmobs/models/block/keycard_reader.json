@@ -3,6 +3,6 @@
   "textures": {
     "side": "amongusmobs:block/machine_block_side",
     "bottom": "amongusmobs:block/machine_block_side",
-    "top": "amongusmobs:block/keycard_reader_top"
+    "top": "amongusmobs:block/keycard_reader_off"
   }
 }

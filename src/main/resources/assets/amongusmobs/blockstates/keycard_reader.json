@@ -4,7 +4,7 @@
       "model": "amongusmobs:block/keycard_reader_off"
     },
     "state=on": {
-      "model": "amongusmobs:block/keycard_reader_off"
+      "model": "amongusmobs:block/keycard_reader_on"
     }
   }
 }
