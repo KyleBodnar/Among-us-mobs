@@ -1,11 +1,10 @@
-package com.invalid.amongUsMobs;
+package com.invalid.amongusmobs;
 
-import com.invalid.amongUsMobs.entity.EntityRegister;
-import com.invalid.amongUsMobs.entity.client.SmallAmogusRenderer;
+import com.invalid.amongusmobs.entity.EntityRegister;
+import com.invalid.amongusmobs.entity.client.SmallAmogusRenderer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 
 @Environment(EnvType.CLIENT)

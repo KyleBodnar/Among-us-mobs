@@ -1,7 +1,7 @@
-package com.invalid.amongUsMobs.entity.client;
+package com.invalid.amongusmobs.entity.client;
 
-import com.invalid.amongUsMobs.entity.smallAmogus.SmallAmogusEntity;
-import com.invalid.amongUsMobs.entity.smallAmogus.SmallAmogusModel;
+import com.invalid.amongusmobs.entity.smallAmogus.SmallAmogusEntity;
+import com.invalid.amongusmobs.entity.smallAmogus.SmallAmogusModel;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 

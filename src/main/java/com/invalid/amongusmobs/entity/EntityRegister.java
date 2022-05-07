@@ -1,7 +1,7 @@
-package com.invalid.amongUsMobs.entity;
+package com.invalid.amongusmobs.entity;
 
-import com.invalid.amongUsMobs.Amogus;
-import com.invalid.amongUsMobs.entity.smallAmogus.SmallAmogusEntity;
+import com.invalid.amongusmobs.Amogus;
+import com.invalid.amongusmobs.entity.smallAmogus.SmallAmogusEntity;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;

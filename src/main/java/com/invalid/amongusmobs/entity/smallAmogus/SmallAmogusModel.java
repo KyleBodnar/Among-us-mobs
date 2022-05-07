@@ -1,6 +1,6 @@
-package com.invalid.amongUsMobs.entity.smallAmogus;
+package com.invalid.amongusmobs.entity.smallAmogus;
 
-import com.invalid.amongUsMobs.Amogus;
+import com.invalid.amongusmobs.Amogus;
 import net.minecraft.util.Identifier;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 
@@ -9,7 +9,7 @@ public class SmallAmogusModel extends AnimatedGeoModel<SmallAmogusEntity> {
 
     @Override
     public Identifier getModelLocation(SmallAmogusEntity object) {
-        return null;
+        return new Identifier(Amogus.MOD_ID, "");
     }
 
     @Override
@@ -19,6 +19,6 @@ public class SmallAmogusModel extends AnimatedGeoModel<SmallAmogusEntity> {
 
     @Override
     public Identifier getAnimationFileLocation(SmallAmogusEntity animatable) {
-        return null;
+        return new Identifier(Amogus.MOD_ID, "");
     }
 }

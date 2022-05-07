@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "amongUsMobs",
+  "id": "amongusmobs",
   "version": "${version}",
 
   "name": "Among us mobs",
@@ -14,12 +14,12 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/amongusmobs/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.invalid.amongUsMobs.Amogus"
+      "com.invalid.amongusmobs.Amogus"
     ]
   },
   "mixins": [

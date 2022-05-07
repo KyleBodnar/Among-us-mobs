@@ -1,4 +1,4 @@
-package com.invalid.amongUsMobs.entity.smallAmogus;
+package com.invalid.amongusmobs.entity.smallAmogus;
 
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.*;
