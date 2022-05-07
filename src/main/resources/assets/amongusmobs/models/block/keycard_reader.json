@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "side": "amongusmobs:block/machine_block_side",
+    "bottom": "amongusmobs:block/machine_block_side",
+    "top": "amongusmobs:block/keycard_reader_top"
+  }
+}
