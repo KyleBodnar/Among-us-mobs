@@ -1,8 +1,15 @@
-# Fabric Example Mod
+# Among Us Mobs
 
-## Setup
+## Information
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+This mod us under development
+
+## Features
+
+- Keycard and keycard reader
+- amogium ore
+- ingots and blocks and pickaxe
+- amogus totem: gives invis to you and blindness to targeted entity
 
 ## License
 
